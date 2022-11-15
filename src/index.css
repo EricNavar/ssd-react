@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   cursor: url(//b.thumbs.redditmedia.com/YrGSo9BGOoMTX5rdUbNriLBUTmYhe7bB4yZuSKItEKY.png),auto;
+  background-color: pink;
 }
 
 code {
