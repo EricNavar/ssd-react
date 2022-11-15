@@ -1,14 +1,15 @@
+import React from 'react';
 import './App.css';
 
 function App() {
-  console.log(process.env);
+  const link: string = process.env.REACT_APP_VIDEO!;
   return (
     <div style={{textAlign:'center'}}>
       <p className="augh">
         Kent Fucks Lovers Blog
       </p>
       <video controls autoPlay={true}>
-        <source src={process.env.REACT_APP_VIDEO} type="video/mp4"/>
+        <source src={link} type="video/mp4"/>
       </video>
     </div>
   );
